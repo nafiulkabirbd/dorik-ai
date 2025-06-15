@@ -569,3 +569,70 @@ img {
   width: 560px;
   height: 460px;
 }
+
+/* happy user style start */
+.happy-user-container {
+  padding: 130px 0px;
+}
+
+.happy-user-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.happy-user-text h2 {
+  color: #17134a;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.happy-user-btn {
+  margin-top: 35px;
+}
+
+.happy-user-btn a {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3a2fba;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.happy-user-btn a:hover {
+  background-color: #12126e;
+  transition: 0.3s;
+}
+
+.happy-user-btn svg {
+  width: 10px;
+  margin-left: 15px;
+}
+
+.happy-user-logo-container h2 {
+  color: #17134a;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.happy-user-log-box-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.happy-user-log-box-inner img {
+  height: 30px;
+}
+
+.happy-user-gap img {
+  margin-left: 30px;
+}
