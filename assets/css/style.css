@@ -636,3 +636,52 @@ img {
 .happy-user-gap img {
   margin-left: 30px;
 }
+
+/* design area start */
+.design-container {
+  background-color: #030521;
+  padding-top: 124px;
+}
+
+.design-content h2 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.design-content-box {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.design-content-box-inner {
+  width: 33.33333%;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+}
+
+.design-content-box-inner h3 {
+  padding: 10px 0px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.design-content-box-inner h4 {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.design-img {
+  padding-top: 77px;
+}
