@@ -685,3 +685,66 @@ img {
 .design-img {
   padding-top: 77px;
 }
+
+/* maintenance style start */
+.maintenance-container {
+  padding-top: 130px;
+  padding-bottom: 165px;
+}
+
+.maintenance-content h2 {
+  color: #17134a;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.maintenance-content p {
+  color: #45426e;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.maintenance-content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.maintenance-content-box-inner h3 {
+  color: #17134a;
+  font-size: 20px;
+  line-height: 26.4px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.maintenance-content-box-inner h4 {
+  color: #45426e;
+  font-size: 12px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.purple-svg {
+  font-size: 30px;
+  color: #8c3bfc;
+  margin-bottom: 10px;
+}
+
+.pink-svg {
+  font-size: 30px;
+  color: #de238e;
+  margin-bottom: 10px;
+}
+
+.blue-svg {
+  font-size: 30px;
+  color: #27a6fe;
+  margin-bottom: 10px;
+}
