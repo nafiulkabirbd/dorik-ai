@@ -232,3 +232,29 @@ img {
   font-weight: 400;
 }
 
+/* brand style start */
+.brand-container {
+  padding-top: 55px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.brand-container h2 {
+  color: #17134a;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.brand-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-content-box img {
+  height: 35px;
+  filter: grayscale(100%) sepia(0%) blur(0px) brightness(100%) hue-rotate(0deg)
+    saturate(100%) opacity(100%) contrast(100%) invert(0%);
+}
