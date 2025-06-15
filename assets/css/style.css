@@ -338,7 +338,7 @@ img {
 
 /* no code style start */
 .no-code-container {
-  padding: 60px 0px;
+  padding-top: 60px;
 }
 
 .no-code-content {
@@ -410,6 +410,84 @@ img {
 }
 
 .no-code-img img {
+  width: 560px;
+  height: 460px;
+}
+
+/* cms style start */
+.cms-container {
+  padding-top: 60px;
+}
+
+.cms-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1faf7;
+  padding: 42px;
+  border-radius: 5px;
+}
+
+.cms-text h2 {
+  color: #17134a;
+  font-size: 47px;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.cms-text p {
+  color: #45426e;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.cms-text ul {
+  list-style: none;
+}
+
+.cms-text li {
+  color: #45426e;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+.cms-text ul li svg {
+  width: 20px;
+  color: #3a30ba;
+  margin-right: 5px;
+}
+
+.cms-btn {
+  margin-top: 35px;
+}
+
+.cms-btn a {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3a2fba;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.cms-btn a:hover {
+  background-color: #12126e;
+  transition: 0.3s;
+}
+
+.cms-btn svg {
+  width: 10px;
+  margin-left: 15px;
+}
+
+.cms-img img {
   width: 560px;
   height: 460px;
 }
