@@ -748,3 +748,51 @@ img {
   color: #27a6fe;
   margin-bottom: 10px;
 }
+
+/* pricing style start */
+.pricing-container {
+  background-color: #fff9f3;
+  padding: 125px 0px;
+}
+.pricing-content h2 {
+  color: #17134a;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.pricing-content p {
+  color: #45426e;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pricing-btn {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.pricing-btn a {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3a2fba;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.pricing-btn a:hover {
+  background-color: #12126e;
+  transition: 0.3s;
+}
+
+.pricing-btn svg {
+  width: 10px;
+  margin-left: 15px;
+}
